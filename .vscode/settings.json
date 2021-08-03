@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "types.h": "c",
+        "fcntl.h": "c",
+        "user.h": "c",
+        "locale": "c",
+        "ostream": "c",
+        "param.h": "c"
+    }
+}

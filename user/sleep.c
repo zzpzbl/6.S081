@@ -1,6 +1,6 @@
-#include "user.h"
-#include "kernel/syscall.h"
 #include "kernel/types.h"
+#include "kernel/stat.h"
+#include "user/user.h"
 
 int
 main(int argc, char *argv[]) 
@@ -10,7 +10,7 @@ main(int argc, char *argv[])
         exit(1);
     }
 
-    if (argv > 3) {
+    if (argc > 3) {
         fprintf(2, "参数过多\n");
         exit(1);
     }
